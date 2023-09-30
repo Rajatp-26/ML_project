@@ -1,5 +1,5 @@
 import sys
-import logging
+from src.logger import logging
 
 #when error occurs we call this particular function
 def error_message_detail(error,error_details:sys):
@@ -22,4 +22,3 @@ class CustomException(Exception):
     
 
     
-            
